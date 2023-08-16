@@ -12,7 +12,7 @@ const HomeFourBtn = (props) => {
       variants={buttonVariants}
       initial="hidden"
       animate="visible"
-      className="hidden md:flex  lg:px-5 items-center lg:py-3 md:px-3 md:py-2 px-5 py-3 mt-6 overflow-hidden relative md:mt-2 rounded-3xl bg-orange-600 text-white font-[poppins] hover:bg-orange-300 duration-300"
+      className="hidden md:flex  lg:px-5 items-center lg:py-3 md:px-3 md:py-2 px-5 py-3 overflow-hidden relative md:mt-2 rounded-3xl bg-orange-600 text-white font-[poppins] hover:bg-orange-300 duration-300"
     >
       {props.children}
       Register now

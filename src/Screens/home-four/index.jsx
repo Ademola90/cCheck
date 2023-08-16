@@ -92,7 +92,7 @@ const HomeFour = () => {
   ];
   return (
     <section>
-      <main className="h-screen grid items-center justify-center">
+      <main className=" h-auto">
         <HomeFourNav />
         <div className=" bg-white w-full lg:py-0 md:py-10 py-10 md:mt-16 mt-24 md:pl-20 ml-7 ">
           <div className=" lg:flex md:grid justify-start items-center sm:grid">
