@@ -91,9 +91,9 @@ const HomeFour = () => {
     },
   ];
   return (
-    <section className=" h-screen grid justify-center items-center p-28">
+    <section className=" h-screen grid items-center justify-center">
       <HomeFourNav />
-      <div className=" bg-white w-full md:mt-16 mt-24 md:pl-20 ml-7 ">
+      <div className=" bg-white w-full lg:py-0 md:py-10 py-10 md:mt-16 mt-24 md:pl-20 ml-7 ">
         <div className=" lg:flex md:grid justify-start items-center sm:grid">
           <div className=" lg:w-1/2 md:w1/2">
             <img className=" w-44 h-10 mb-3" src={HomeFourAvatar} alt="" />
@@ -156,7 +156,7 @@ const HomeFour = () => {
 
       {/* section 2 */}
 
-      <div name="Products" className=" ">
+      <div name="Products" className=" md:px-28 px-7 md:py-20 ">
         <div className="md:flex md:gap-24">
           {/* image grid */}
           <div className="md:grid flex md:gap-y-2 w-full md:w-1/2 md:gap-x-0 gap-x-12 ">
@@ -244,7 +244,7 @@ const HomeFour = () => {
 
       {/* section 3 */}
 
-      <div name="About Us" className="">
+      <div name="About Us" className=" md:px-28 px-7">
         <div className="flex gap-14 mt-7">
           <div className=" w-2/5">
             <p className=" md:text-4xl text-xl font-bold mb-7">
@@ -279,7 +279,7 @@ const HomeFour = () => {
 
       {/* section 4 */}
 
-      <div className="md:my-16 ">
+      <div className="md:my-16 md:px-28 px-7">
         <div className="card-list grid lg:grid-cols-2 gap-4">
           {cardData.map((card, index) => (
             <Card
@@ -300,7 +300,7 @@ const HomeFour = () => {
 
       {/* section 5 */}
 
-      <div className="my-20">
+      <div className=" md:px-24 my-20 px-7">
         <div className=" ">
           <div className="text-center">
             <p>Testimonials</p>
@@ -346,7 +346,7 @@ const HomeFour = () => {
 
       {/* section 6 */}
 
-      <div className="my-20 md:my-10">
+      <div className=" md:px-28 px-7 my-20 md:my-10">
         <p className=" text-center">
           Trusted by <span className=" text-bnbcol">4000+</span> companies
         </p>
@@ -388,7 +388,7 @@ const HomeFour = () => {
 
       {/* section 7 */}
 
-      <div className="md:my-24 md:mb-0 mb-24 ">
+      <div className="md:px-28 px-7 md:my-24 md:mb-0 mb-24 ">
         <div className="  items-center justify-center grid">
           <div className=" grid bg-black rounded-3xl p-20">
             <p className=" text-center md:text-3xl lg:text-3xl text-white font-bold">
@@ -412,7 +412,7 @@ const HomeFour = () => {
 
       {/* Footer */}
 
-      <div name="Contact Us" className=" mt-20 bg-footercol">
+      <div name="Contact Us" className=" mt-20 md:px-28 px-7 bg-footercol">
         <div className="lg:flex md:grid grid p-20 md:gap-y-12 lg:gap-y-0 gap-y-12 gap-x-10">
           <div className=" lg:w-1/3 lg:grid md:grid grid">
             <p className=" md:text-3xl lg:text-3xl text-xl font-bold text-primaryCol">
