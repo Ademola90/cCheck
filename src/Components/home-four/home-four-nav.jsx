@@ -25,7 +25,7 @@ const HomeFourNav = () => {
 
   return (
     <nav className="  w-full fixed top-[-3px] left-0 z-20">
-      <div className=" shadow-md md:flex items-center pt-2 lg:h-20 md:h-20 h-20 justify-between bg-white px-7 md:px-28">
+      <div className=" shadow-md md:flex items-center pt-2 lg:h-20 md:h-20 h-20 gap-96 justify-center bg-white">
         <div className=" flex object-cover items-center cursor-pointer">
           <div className=" ">
             <img className="  w-14" src={HwLogo} alt="" />
@@ -65,8 +65,10 @@ const HomeFourNav = () => {
               </Link>
             </li>
           ))}
-          <HomeFourBtn></HomeFourBtn>
         </motion.ul>
+        <div>
+          <HomeFourBtn></HomeFourBtn>
+        </div>
       </div>
     </nav>
   );
