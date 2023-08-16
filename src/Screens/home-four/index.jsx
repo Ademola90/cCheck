@@ -175,7 +175,7 @@ const HomeFour = () => {
                 </span>{" "}
                 In Your Hand
               </p>
-              <p className="md:py-0">
+              <p className="md:py-0 text-justify">
                 Take control of your financial future with our easy-to-use
                 budgeting and friendly tools. Enjoy peace of mind with our 24/7
                 customer support and expert guidance.
@@ -193,7 +193,7 @@ const HomeFour = () => {
 
                   <div className=" w-9/12">
                     <p className=" md:text-2xl font-bold">Secure Transaction</p>
-                    <p>
+                    <p className="text-justify">
                       We take the security of your account seriously, we are
                       committed to preventing data loss or leak.
                     </p>
@@ -213,7 +213,7 @@ const HomeFour = () => {
                     <p className=" md:text-2xl font-bold">
                       24/Customer Support
                     </p>
-                    <p>
+                    <p className="text-justify">
                       Cebizpay has a team of well-trained customer support
                       agents available 24/7 to assist you with any issues you
                       may have. We offer multiple channels of communication to
@@ -236,7 +236,7 @@ const HomeFour = () => {
                     <p className=" md:text-2xl font-bold">
                       Safe and Convenient
                     </p>
-                    <p>
+                    <p className="text-justify">
                       Periodically, Cebizpay offers the best discounts and
                       special deals on all of our services, including data,
                       airtime, and cable subscriptions. Stay tuned for updates
@@ -261,7 +261,7 @@ const HomeFour = () => {
                   Services
                 </span>
               </p>
-              <p className="grid">
+              <p className="grid text-justify">
                 Yes, we got you covered, With Cebizpay Enjoy a easy and fast
                 data delivery with Optimal security and also enjoy the best
                 offers and discount sales on all our products periodically.
@@ -269,7 +269,7 @@ const HomeFour = () => {
             </div>
 
             <div className=" w-3/5 grid">
-              <p>
+              <p className="text-justify">
                 Empower Your Financial Journey with the Ultimate Solution for
                 Convenience and experience the ease and security of managing
                 your finances with our innovative and comprehensive solution.
@@ -330,7 +330,7 @@ const HomeFour = () => {
                 />
               </div>
               <div className="grid bg-TFramcol md:relative md:right-5 bottom-3 md:bottom-0  p-14 md:w-2/4 h-80 rounded-2xl  ">
-                <p>
+                <p className="text-justify">
                   Ever since i started business with Cebizpay it has been all
                   smiles...they have the best customer service team
                   ever...prompt and fast response to issues. Cebizpay thanks for
