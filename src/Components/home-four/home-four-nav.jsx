@@ -28,7 +28,7 @@ const HomeFourNav = () => {
       <div className=" shadow-md md:flex items-center pt-2 lg:h-20 md:h-20 h-20 gap-96 justify-center bg-white">
         <div className=" flex object-cover items-center cursor-pointer">
           <div className=" ">
-            <img className="  w-14" src={HwLogo} alt="" />
+            <img className=" lg:ml-0 md:ml-0 ml-7  w-14" src={HwLogo} alt="" />
           </div>
         </div>
 
